@@ -4,17 +4,58 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Nanum Myeongjo";
+    src: url("/fonts/NanumMyeongjo-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poiret One";
+    src: url("/fonts/PoiretOne-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
 body {
-    background-image: url(img/floting_macarons.jpg);
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+}
+
+body {
+    background-image: url(../img/main.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-
-    font-family: "glass antiqua", cursive;
 }
 
-body.what_is_a_macaron {
-    background-image: url(img/pile_of_macarons.jpg);
+body.macaron {
+    background-image: url(../img/macaron.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+body.passion {
+    background-image: url(../img/passion.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+body.baking {
+    background-image: url(../img/baking.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+body.history {
+    background-image: url(../img/history.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -40,8 +81,12 @@ header {
     align-items: space-between;
 }
 
+body.macaron header {
+    display: flex;
+}
+
 h1 {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     margin-bottom: 14vw;
     font-size: 3em;
