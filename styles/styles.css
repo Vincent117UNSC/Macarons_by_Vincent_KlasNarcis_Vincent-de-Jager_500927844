@@ -197,7 +197,11 @@ body.home section p a:hover {
 body.home section p a:active {
     color: red;
 }
-                                        /* History page */
+                                    /* What's a macaron page */
+body.macaron main section a {
+    max-width: 45vw;
+}
+                                    /* History page */
 body.history main section a {
     max-width: 45vw;
 }
@@ -272,7 +276,7 @@ footer ul li {
     flex-basis: 30vw;
 }
 
-footer span {
+footer p {
     display: block;
     text-align: center;
     background: #c7c7c7;
