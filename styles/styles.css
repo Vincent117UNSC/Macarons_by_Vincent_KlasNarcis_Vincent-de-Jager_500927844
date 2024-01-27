@@ -313,6 +313,9 @@ body.macaron header nav ul li:nth-of-type(2) a {
 
     body.macaron main section:first-of-type img {
         padding: .5em;
+        width: 45vw;
+        max-width: 500px;
+
     }
 
     body.macaron main section:nth-of-type(2) p:first-of-type {
